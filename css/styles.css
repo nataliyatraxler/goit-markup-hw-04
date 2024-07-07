@@ -360,12 +360,18 @@ img {
     background-color: #f4f4fd;
     border: 1px solid #e7e9fc;
     border-radius: 8px;
+    border-radius: 0px 0px 4px 4px;
+       
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+   
     padding: 32px 0;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     max-width: 250px;
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
+}
+.team-member:first-child {
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-photo {
@@ -390,7 +396,7 @@ img {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 24px;
     padding: 0;
     list-style: none;
 }
@@ -413,13 +419,18 @@ img {
 .social-icon:hover {
     background-color: #404bbf;
 }
-
+:root {
+    --icon-fill-color: #f4f4fd;
+}
 .icon {
     width: 24px;
     height: 24px;
-    fill: #ffffff;
+    fill: var(--icon-fill-color);
 }
 
+.team-member a:focus {
+    background-color: #404bbf;
+}
 /* Portfolio styles */
 .portfolio-container {
     padding-top: 120px;
