@@ -256,7 +256,6 @@ img {
 .features-items {
     display: flex;
     justify-content: space-between;
-    gap: 16px;
 }
 
 .feature-item {
@@ -265,8 +264,6 @@ img {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    flex: 1 1 calc(25% - 16px);
-    margin-bottom: 16px;
 }
 
 .icon-container {
@@ -427,9 +424,7 @@ img {
 .footer .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -511,7 +506,7 @@ p {
     line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: var(--color-text, #FFFFFF);
+    color: #FFFFFF;
     margin-bottom: 16px;
 }
 
