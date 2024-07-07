@@ -186,13 +186,12 @@ img {
 .feature-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.07;
+    line-height: 24px;
     letter-spacing: 0.02em;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: left;
     margin-bottom: 48px;
     color: #2E2F42;
-    max-width: 496px;
+    
 }
 
 .feature-description {
@@ -203,6 +202,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
+    text-align: left;
     color: #434455;
     max-width: 496px;
 }
@@ -278,7 +278,7 @@ img {
 /* Основні стилі для Features секції */
 .intro.section.section-first {
     padding: 60px 0;
-    /* Додати відступ зверху та знизу */
+   
     background-color: #f8f9fa;
 }
 
