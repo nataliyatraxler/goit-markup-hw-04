@@ -181,32 +181,34 @@ img {
 }
 
 /* Intro styles */
-.intro {
-    height: 600px;
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('images/hero.jpg') no-repeat center/cover;
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    max-width: 1440px;
-    margin: 0 auto;
-}
 
-.intro-title {
-    font-size: 56px;
-    font-weight: 700;
+
+.feature-title {
+    font-size: 20px;
+    font-weight: 500;
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-    color: #ffffff;
+    color: #2E2F42;
     max-width: 496px;
 }
 
-.intro-button {
+.feature-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    color: #434455;
+    max-width: 496px;
+}
+
+
+.feature-button {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -226,13 +228,18 @@ img {
     border-radius: 4px;
 }
 
-.intro-button:hover,
-.intro-button:focus {
+.feature-button:hover,
+.feature-button:focus {
     background-color: #404bbf;
+}
+.feature-description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('images/hero.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -251,8 +258,11 @@ img {
 }
 
 .hero-title {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 56px;
+    margin-bottom: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -277,13 +287,7 @@ img {
     justify-content: space-between;
 }
 
-.feature-item {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
+
 
 .icon-container {
     display: flex;
@@ -299,6 +303,40 @@ img {
 .feature-icon {
     width: 64px;
     height: 64px;
+}
+.features-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    
+    flex-wrap: wrap;
+    
+}
+
+.feature-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 calc(25% - 20px);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0;
+    
+}
+
+.feature-title {
+    margin: 10px 0;
+   
+}
+
+.feature-description {
+    margin: 10px 0;
+    
 }
 
 /* section "Our Team" */
