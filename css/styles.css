@@ -350,7 +350,7 @@ img {
     margin-bottom: 40px;
 }
 
-.team-members {
+.team-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -369,10 +369,13 @@ img {
 
 .team-photo {
     border-radius: 8px;
-  
     width: 100%;
     height: auto;
     margin-bottom: 16px;
+}
+
+.team-info {
+    text-align: center;
 }
 
 .team-name {
@@ -391,6 +394,10 @@ img {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+.social-icon-item {
+    display: flex;
 }
 
 .social-icon {
