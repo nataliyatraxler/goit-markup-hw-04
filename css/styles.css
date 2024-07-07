@@ -450,11 +450,7 @@ img {
     flex: 1 1 calc(33.33% - 24px);
 }
 
-.portfolio-img {
-    margin-bottom: 10px;
-    width: 100%;
-    height: auto;
-}
+
 
 .portfolio-text-container {
     padding: 32px 16px;
@@ -470,12 +466,14 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    text-align: left;
 }
 
 .portfolio-project-category {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    text-align: left;
 }
 
 /* Стилі для футера */
