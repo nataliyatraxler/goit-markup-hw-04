@@ -57,33 +57,6 @@ img {
 }
 
 .section-first {
-    padding: 188px 0;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
-
-.container {
-    max-width: 1158px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.section-first {
     padding: 0;
 }
 
@@ -191,15 +164,15 @@ img {
 /* Intro styles */
 .intro {
     height: 600px;
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero.jpg');
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('images/hero.jpg') no-repeat center/cover;
+    color: white;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    text-align: center;
     position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .intro-title {
@@ -240,11 +213,13 @@ img {
 }
 
 .hero {
-    background-image: url('images/hero.jpg');
-    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('images/hero.jpg');
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
     height: 600px;
-    /* Достатня висота для Hero секції */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,6 +243,7 @@ img {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Основні стилі для Features секції */
