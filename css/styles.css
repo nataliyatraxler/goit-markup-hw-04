@@ -400,6 +400,9 @@ img {
     padding: 0;
     list-style: none;
 }
+.social-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .social-icon-item {
     display: flex;
