@@ -237,6 +237,20 @@ img {
     font-weight: 500;
     line-height: 1.5;
 }
+:root {
+    --border-color: #8e8f99;
+    --icon-fill-color: #f4f4fd;
+}
+
+.icon-container {
+    border: 1px solid var(--border-color);
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--icon-fill-color);
+} 
 
 .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/hero.jpg');
@@ -434,7 +448,7 @@ img {
     flex-wrap: wrap;
 }
 /* Portfolio styles */
-/* Portfolio styles */
+
 .portfolio-container {
     padding-top: 120px;
     padding-bottom: 120px;
