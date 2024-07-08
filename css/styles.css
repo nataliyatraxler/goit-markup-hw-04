@@ -652,6 +652,9 @@ img {
 .social-icon:hover {
     background-color: #404bbf;
 }
+.footer-content {
+    margin-right: 120px;
+}
 /* Paragraph styles */
 p {
     font-size: 16px;
