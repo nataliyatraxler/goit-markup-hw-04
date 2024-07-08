@@ -454,6 +454,26 @@ img {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+/* Social Icon Styles */
+.social-icon-item {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon-item a {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon-item a:hover,
+.social-icon-item a:focus {
+    background-color: #404bbf;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--icon-fill-color);
+}
 /* Portfolio styles */
 
 .description-text {
