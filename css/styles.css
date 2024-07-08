@@ -342,15 +342,10 @@ img {
 }
 
 /* section "Our Team" */
-/* Стилі для третьої секції */
+/* Секція команди */
 .team {
     text-align: center;
-}
-
-.section-title {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 40px;
+    padding: 120px 0;
 }
 
 .team-list {
@@ -362,8 +357,7 @@ img {
 .team-member {
     background-color: #f4f4fd;
     border: 1px solid #e7e9fc;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
     padding: 32px 0;
     max-width: 250px;
     width: 100%;
@@ -410,45 +404,24 @@ img {
 
 .social-icon-item a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
 }
+
 .social-icon-item a:hover,
 .social-icon-item a:focus {
     background-color: #31d0aa;
 }
 
-.social-icon {
-    width: 40px;
-    height: 40px;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s;
-}
-
-.social-icon:hover {
-    background-color: #404bbf;
-}
-
-:root {
-    --icon-fill-color: #f4f4fd;
-}
-
 .icon {
     width: 24px;
     height: 24px;
-    fill: #f4f4fd;
-}
-
-.team-member a:focus {
-    background-color: #404bbf;
-}
-
-.team-members {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    fill: #ffffff;
 }
 /* Portfolio styles */
 
