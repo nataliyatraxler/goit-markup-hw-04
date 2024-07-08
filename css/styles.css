@@ -282,16 +282,23 @@ img {
 /* Основні стилі для Features секції */
 .intro.section.section-first {
     padding: 60px 0;
-   
     background-color: #f8f9fa;
 }
 
 .features-items {
     display: flex;
     justify-content: space-between;
+    padding: 0;
+    list-style: none;
 }
 
-
+.feature-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
 
 .icon-container {
     display: flex;
@@ -308,39 +315,16 @@ img {
     width: 64px;
     height: 64px;
 }
-.features-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 20px;
-    
-    flex-wrap: wrap;
-    
-}
-
-.feature-item {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    flex: 1 1 calc(25% - 20px);
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 10px 0;
-    
-}
 
 .feature-title {
-    margin: 10px 0;
-   
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
 }
 
 .feature-description {
-    margin: 10px 0;
-    
+    font-size: 14px;
+    color: #777;
 }
 
 /* section "Our Team" */
