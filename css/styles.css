@@ -518,6 +518,12 @@ img {
 }
 
 /* Стилі для футера */
+
+.social-icon-item a:hover,
+.social-icon-item a:focus {
+    background-color: #31d0aa;
+}
+
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
@@ -614,7 +620,7 @@ img {
 
 .footer .social-icon:hover .icon {
     fill: #404bbf;
-    /* колір при наведенні */
+   
 }
 
 .social-icons {
@@ -623,9 +629,9 @@ img {
     gap: 16px;
     margin-bottom: 16px;
     padding: 0;
-    /* додано для видалення зайвих відступів */
+    
     list-style: none;
-    /* додано для видалення маркерів списку */
+    
 }
 
 .social-icon-item {
