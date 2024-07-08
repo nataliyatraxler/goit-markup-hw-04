@@ -561,8 +561,8 @@ img {
 
 /* Стилі для футера */
 
-.social-icon-item a:hover,
-.social-icon-item a:focus {
+.social-icon-item-footer a:hover,
+.social-icon-item-footer a:focus {
     background-color: #31d0aa;
 }
 
@@ -618,18 +618,18 @@ img {
     color: #FFFFFF;
 }
 
-.social-icons {
+.social-icons-footer {
     display: flex;
     justify-content: center;
     gap: 16px;
     margin-bottom: 16px;
 }
 
-.social-icon-item {
+.social-icon-item-footer {
     display: flex;
 }
 
-.social-icon {
+.social-icon-footer {
     width: 40px;
     height: 40px;
     background-color: #4d5ae5;
@@ -640,11 +640,11 @@ img {
     transition: background-color 0.3s;
 }
 
-.social-icon:hover {
+.social-icon-footer:hover {
     background-color: #404bbf;
 }
 
-.icon {
+.icon-footer {
     width: 24px;
     height: 24px;
     fill: #ffffff;
@@ -654,7 +654,7 @@ img {
     --icon-fill-color: #f4f4fd;
 }
 
-.icon {
+.icon-footer {
     width: 24px;
     height: 24px;
     fill: var(--icon-fill-color);
@@ -665,7 +665,7 @@ img {
    
 }
 
-.social-icons {
+.social-icons-footer {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -676,11 +676,11 @@ img {
     
 }
 
-.social-icon-item {
+.social-icon-item-footer {
     display: flex;
 }
 
-.social-icon {
+.social-icon-footer {
     width: 40px;
     height: 40px;
     background-color: #4d5ae5;
@@ -691,7 +691,7 @@ img {
     transition: background-color 0.3s;
 }
 
-.social-icon:hover {
+.social-icon-footer:hover {
     background-color: #404bbf;
 }
 .footer-content {
