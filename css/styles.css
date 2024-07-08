@@ -293,7 +293,7 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Основні стилі для Features секції */
+
 .intro.section.section-first {
     padding: 60px 0;
     background-color: #f8f9fa;
@@ -342,7 +342,7 @@ img {
 }
 
 /* section "Our Team" */
-/* Стилі для третьої секції */
+
 .team {
     text-align: center;
 }
@@ -425,8 +425,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.3s;
-}
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       
+    }
+    
+  
 
 .social-icon:hover {
     background-color: #404bbf;
