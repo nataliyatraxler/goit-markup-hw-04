@@ -375,7 +375,9 @@ img {
 }
 .team-member:first-child {
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 
 .team-photo {
     border-radius: 4px;
@@ -448,49 +450,49 @@ img {
     flex-wrap: wrap;
 }
 /* Portfolio styles */
-/* Стилі для параграфів у секції "Our Portfolio" */
+
 .description-text {
     position: absolute;
-    /* встановлює позицію відносно батьківського елемента */
+    
     top: 0;
-    /* зміщує елемент до верхньої межі контейнера */
+  
     font-size: 16px;
-    /* визначає розмір шрифту */
+  
     line-height: 1.5;
-    /* визначає простір між рядками */
+    
     letter-spacing: 0.02em;
-    /* визначає простір між літерами */
+   
     color: var(--description-color, #f4f4fd);
-    /* визначає колір тексту */
+    
     padding: 40px 32px;
-    /* створює відступи між вмістом елемента та його рамкою */
+    
     background-color: #4d5ae5;
-    /* визначає колір фону */
+    
     height: 100%;
-    /* встановлює висоту елемента на 100% висоти батьківського контейнера */
+   
     width: 100%;
-    /* встановлює ширину елемента на 100% ширини батьківського контейнера */
+   
     transform: translateY(100%);
-    /* змінює позицію елемента вздовж осі Y */
+    
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* дозволяє задання анімаційний ефект для зміни властивостей стилю */
+    
 }
 
-/* Додаткові стилі */
+
 .image-container {
     position: relative;
-    /* встановлює позицію відносно батьківського елемента */
+
     overflow: hidden;
-    /* приховує елементи, які виходять за межі контейнера */
+   
 }
 
 .portfolio-item:hover .description-text,
 .portfolio-item:focus .description-text {
     transform: translateY(0);
-    /* змінює позицію елемента при наведенні чи фокусі */
+  
 }
 
-/* Інші стилі для розділу "Our Portfolio" */
+
 .portfolio-container {
     padding-top: 120px;
     padding-bottom: 120px;
