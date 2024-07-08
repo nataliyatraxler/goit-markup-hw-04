@@ -450,6 +450,7 @@ img {
     flex-wrap: wrap;
 }
 /* Portfolio styles */
+/* Portfolio styles */
 .portfolio-container {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -478,7 +479,23 @@ img {
     flex: 1 1 calc(33.33% - 24px);
 }
 
+.image-container {
+    position: relative;
+}
 
+.portfolio-img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.description-text {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #434455;
+    margin-top: 8px;
+    text-align: center;
+}
 
 .portfolio-text-container {
     padding: 32px 16px;
@@ -494,24 +511,12 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: left;
 }
 
 .portfolio-project-category {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
-    text-align: left;
-}
-
-.portfolio-project-description {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #F4F4FD;
-    letter-spacing: 0.02em;
-    position: absolute
-    
 }
 
 /* Стилі для футера */
