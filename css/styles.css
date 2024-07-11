@@ -195,7 +195,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     left: 0;
-    margin-bottom: 48px;
+    margin-bottom: 8px;
     color: #2E2F42;
     
 }
@@ -409,6 +409,7 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .social-icons {
@@ -648,12 +649,7 @@ img {
     color: #FFFFFF;
 }
 
-.social-icons-footer {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin-bottom: 16px;
-}
+
 
 .social-icon-item-footer {
     display: flex;
@@ -695,11 +691,12 @@ img {
    
 }
 
+
 .social-icons-footer {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 16px;
+    
     padding: 0;
     
     list-style: none;
